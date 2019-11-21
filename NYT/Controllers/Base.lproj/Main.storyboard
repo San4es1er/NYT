@@ -101,7 +101,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test body" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ6-Fh-bLt">
-                                                    <rect key="frame" x="0.0" y="450" width="350" height="100"/>
+                                                    <rect key="frame" x="8" y="450" width="334" height="100"/>
                                                     <color key="backgroundColor" red="0.36893635990000001" green="0.35712260010000002" blue="0.3403173089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="100" id="eBQ-Ns-b77"/>
@@ -119,11 +119,11 @@
                                             </subviews>
                                             <color key="backgroundColor" red="0.55338942999999996" green="0.53785431390000005" blue="0.5001706481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="NZ6-Fh-bLt" secondAttribute="trailing" id="1Hr-lZ-frS"/>
+                                                <constraint firstAttribute="trailing" secondItem="NZ6-Fh-bLt" secondAttribute="trailing" constant="8" id="1Hr-lZ-frS"/>
                                                 <constraint firstAttribute="bottom" secondItem="NZ6-Fh-bLt" secondAttribute="bottom" id="1bw-hm-wrq"/>
                                                 <constraint firstItem="FUV-Wj-U5P" firstAttribute="leading" secondItem="BFd-Ih-FxH" secondAttribute="leading" id="Q6Q-kD-ITF"/>
                                                 <constraint firstAttribute="trailing" secondItem="FUV-Wj-U5P" secondAttribute="trailing" id="Som-GJ-IbJ"/>
-                                                <constraint firstItem="NZ6-Fh-bLt" firstAttribute="leading" secondItem="BFd-Ih-FxH" secondAttribute="leading" id="Ywn-Io-1g3"/>
+                                                <constraint firstItem="NZ6-Fh-bLt" firstAttribute="leading" secondItem="BFd-Ih-FxH" secondAttribute="leading" constant="8" id="Ywn-Io-1g3"/>
                                                 <constraint firstItem="rtv-hn-AAW" firstAttribute="centerX" secondItem="BFd-Ih-FxH" secondAttribute="centerX" id="bba-SO-Bhj"/>
                                                 <constraint firstItem="jGW-cn-Mju" firstAttribute="top" secondItem="BFd-Ih-FxH" secondAttribute="top" id="cJt-b3-Tju"/>
                                                 <constraint firstItem="NZ6-Fh-bLt" firstAttribute="top" secondItem="FUV-Wj-U5P" secondAttribute="bottom" id="cov-Xh-vLe"/>
